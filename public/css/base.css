@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000080;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.title-logo {
+    border: 1px solid #000;
+    background: #333;
+    min-height: 80px;
+    min-width: 160px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 80px;
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: 400px;
+
+}
+
+.main {
+    background: url('https://tryyourname.s3-us-west-1.amazonaws.com/projectpics/abstract_network_connections_background_1806.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+    display: flex;
+  flex-flow: column;
+    min-height: 100vh;
+  overflow: auto;
+    min-width: 100%;
+  padding-top: 80px;
+
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  padding: 1em;
+  
+}
+.example-image {
+  background: url('https://static.wikia.nocookie.net/marveldatabase/images/b/be/Wolverine_Vol_2_75.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 390px;
+  height: 590px;
+}
+
+.search-info {
+
+  background: rgba(255, 255, 255, 0.4);
+  max-width: 60vw;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+.search-image {
+ max-width: 30vw;
+}
+
+.pokeImg {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.holder {
+  display: flex;
+  flex-flow: row wrap;
+}
