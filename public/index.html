@@ -5,20 +5,59 @@
         <link rel='stylesheet' href='./css/base.css' />
     </head>
     <body>
+        <header>
+            <div class="logo">
+                DND Gen
+            </div>
+            <nav>
+                <div class="item">
+                    Home
+                </div>
+                <div class="item">
+                    Sources
+                </div>
+                <div class="item">
+                    About
+                </div>
+            </nav>
+        </header>
         <section class="main">
-            <header>
-              <nav>
-                <!-- remind me to put nav stuff here -->
-              </nav>
-              <input type='text' name='search' />
-              <button> Go </button>
-              <div class="title-logo">
-                Logo
-              </div>
-            </header>
-            <section id="content" class="content">
+            <section id="controls" class="controls">
+                <div id="levelSelect">
+                    <label>Level</label>
+
+                </div>
+                <div>
+                <label>Class</label>
+                <select name="classes" id="classes">
+                    <option>Select a Class</option>
+                </select>
+                </div>
             </section>
-          </section>
+            <div class="card">
+                <h2>
+                    Name
+                </h2>
+                <div class="img">
+                    Optional if we have time
+                </div>
+                <div class="stats">
+                    <div>
+                        <span id="cardClass">Class</span> - Race - Background
+                    </div>
+                    <div>
+                        Gender - Age
+                    </div>
+                    <div class="other">
+                        Other stats as we have time
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            Some sort of footer.
+        </footer>
+        
 
           <script type="text/javascript" src="./js/base.js"></script>
     </body>
